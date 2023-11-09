@@ -37,7 +37,9 @@ items = [
 # ["Lays", "Doritos", "Pop corners" ],
 # ["Gatorade", "Coca Cola", "Pepsi" ],
 # ["Steam", "Amazon", "Gamestop" ]
-
+userChoice = input()
+userChoiceIndex = int(userChoice) - 1
+cart = []
 wantsToShop = True # assuming the user wants shop
 
 # currentItem = 1
@@ -59,5 +61,10 @@ print( f"\nGreat choice, you selected {categories[ userCategoryIndex ]}. Here ar
 userCategoryItems = items[ userCategoryIndex ] # This is the list of items in the category the user selected
 
 for currentItemDetailsIndex in range( len( userCategoryItems ) ):
-    print( f"{userCategoryItems[ currentItemDetailsIndex ][0]}." )
+    print( f"{currentItemDetailsIndex +1}. {userCategoryItems[ currentItemDetailsIndex] [0]}." )
+
+
+
+
+
 

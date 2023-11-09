@@ -82,9 +82,7 @@ while wantsToShop:
 
             print(f"Total Price: ${total_price: .2f}")
                        
-                  
-            else:
-            print("Invalid category choice. Please choose a number between 1 and 4.")
+            
 
             
 
