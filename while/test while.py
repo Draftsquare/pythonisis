@@ -9,4 +9,4 @@ while not button_pressed:
     else:
         print("no press, try")
 
-print("loop ended")
+print("program ended")

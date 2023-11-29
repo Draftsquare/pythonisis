@@ -1,5 +1,7 @@
-currentNumber = 1
-endNumber = 11
+currentNumber = input()
+endNumber = 11 
+
+
 
 while currentNumber <endNumber:
     print( currentNumber )

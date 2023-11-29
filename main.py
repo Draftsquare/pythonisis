@@ -37,9 +37,7 @@ items = [
 # ["Lays", "Doritos", "Pop corners" ],
 # ["Gatorade", "Coca Cola", "Pepsi" ],
 # ["Steam", "Amazon", "Gamestop" ]
-userChoice = input()
-userChoiceIndex = int(userChoice) - 1
-cart = []
+
 wantsToShop = True # assuming the user wants shop
 
 # currentItem = 1
