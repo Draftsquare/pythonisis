@@ -92,7 +92,7 @@ while wantsToShop:
             print(f"'{item}")
 
         print(f"Total Price: ${total_price: .2f}")
-                    
+                    # random comment to make sure this folder is pushed
         
 
         
